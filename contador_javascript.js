@@ -12,13 +12,23 @@ function animateValue(obj, start, end, duration) {
 }
 
 
+//POSIÇÃO 50 DO SCROLL
+$(document).ready(function(){
 
-const captados = document.getElementById("captados");
-animateValue(captados, 0, 30, 1000);
+  $(document).scroll(function() {
+     if ($(this).scrollTop() >= 50) {
 
+         const captados = document.getElementById("captados");
+         animateValue(captados, 0, 30, 1000);
 
-const anuncios = document.getElementById("anuncios");
-animateValue(anuncios, 0, 300, 1000);
+         const anuncios = document.getElementById("anuncios");
+         animateValue(anuncios, 0, 300, 1000);
 
-const faturado = document.getElementById("faturado");
-animateValue(faturado, 0, 2, 1000);
+         const faturado = document.getElementById("faturado");
+         animateValue(faturado, 0, 2, 1000);
+
+     } else {
+
+     }
+  });
+});
