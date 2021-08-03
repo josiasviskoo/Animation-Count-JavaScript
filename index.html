@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animando números com JavaScript</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+        <style media="screen">
+            .branco{
+              color: white;
+            }
+
+            .amarelo{
+              color: #E5C032;
+            }
+
+            h1{
+              font-size: 72px;
+            }
+
+            *{
+              font-family: 'Montserrat', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+
+    <div style="background-color: #49274A" class="uk-padding-large">
+      <div class="uk-container">
+          <div uk-grid>
+            <div class="uk-width-1-3 uk-text-center"><h1 class="amarelo">+ <span id="captados">30</span>mil</h1><p class="branco">Leads Captados</p></div>
+            <div class="uk-width-1-3 uk-text-center"><h1 class="amarelo">+ <span id="anuncios">300</span>mil</h1><p class="branco">Investidos em anúncios</p></div>
+            <div class="uk-width-1-3 uk-text-center"><h1 class="amarelo">+ <span id="faturado">3</span>mi</h1><p class="branco">Faturamentos em vendas on-line</p></div>
+          </div>
+      </div>
+    </div>
+
+    <script src="contador_javascript.js"></script>
+    </body>
+</html>
