@@ -1,13 +1,8 @@
 # Animation-Count-JavaScript
+#by Josias Viskoo
 Animação contador com Javascript
 
 
 Crie animações de números para contagens com JavaScript
 
-
-![screenshot da janela](https://github.com/josiasviskoo/Animation-Count-JavaScript/animador-javascript.png)
-
-![alt text](https://raw.githubusercontent.com/josiasviskoo/Animation-Count-JavaScript/main/animador-javascript.png)
-
-
-Cola: git add . && git commit -m "start" && git push
+![Screenshot do projeto](https://raw.githubusercontent.com/josiasviskoo/Animation-Count-JavaScript/main/animador-javascript.png)
